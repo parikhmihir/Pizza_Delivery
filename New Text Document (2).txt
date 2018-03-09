@@ -1,0 +1,8 @@
+<html>
+<head>
+<title>SIGN UP</title>
+</head>
+<body>
+<font align="center" color="red">SIGN UP</font>
+</body>
+</html>

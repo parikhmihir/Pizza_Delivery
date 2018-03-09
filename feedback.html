@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>FEEDBACK FORM</title>
+<script type="text/javascript" src="feedbackjs.js">
+</script>
+<link rel="stylesheet" type="text/css" href="multiplestyle.css">
+</head>
+<body bgcolor="black">
+<img id="img1"src="logo.jpg"height="100" width="100" align="left"></img>
+<h1 align="center"><font color="red">FEEDBACK FORM</font></h1>
+<font align="center" color="red">Fields marked as asterick(*)are compulsory</font>
+<form name="feedback"action="feedbacksubmitted.html" method="post"onsubmit="return validate()">
+<table align="center">
+<tr>
+<th><font color="red" size="5">Contact Number<sup>*</sup>:</font></th>
+<td><input type="text" maxlength="10" name="contactno" id="input1"></td>
+</tr>
+<br>
+<br>
+<tr>
+<th><font color="red" size="5">Feedback<sup>*</sup>:</font></th>
+<td><textarea rows="5" cols="22" name="feed" id="area1">
+</textarea></td>
+</tr>
+<br>
+<br>
+<tr></table><br><br>
+<center><input type="SUBMIT" value="SUBMIT"></center>
+</form>
+</body>
+</html>

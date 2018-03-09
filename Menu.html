@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Pizza</title>
+<style>
+.img-circle {
+    border-radius: 50%;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("img").click(function(){
+		var c=confirm("Order once placed shall not be cancelled");
+		if(c)
+		{
+			var p=prompt("Enter the address for Pizza delivery");
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+    });
+});
+</script>
+</head>
+<body bgcolor="black" text="red">
+<img src="logo.jpg" height="100" width="100" align="left"></img>
+<table align="center" cellpadding="12">
+<tr>
+<td><u><p><a href="home.html">HOME</a></p></u></td>
+<td><u><p>MENU</p></u></td>
+<td><u><p><a href="About.html">ABOUT US</a></p></u></td>
+<td><u><p><a href="contactus.html">CONTACT US</a></p></u></td>
+</tr>
+</table><br><br><br><br><br>
+<font size="2" face="Tahoma" color="red">Double click on the name for stunning offers!!!</font><br>
+<font size="4" face="Tahoma" align="center" color="red"><h3>MENU:</h3></font><br>
+<table align="center">
+<tr>
+<td><h3 align="center">Cheese Tomato</h3><a href="confirmorder.html" >
+<img class="img-circle" src="cheesetomato.png" border="1" align="center" height="270" width="270"></img></a></td>
+<td></td>
+<td><h3 align="center"color="red">Cloud9</h3>
+<a href="confirmorder.html" onmouseover="return ingredients()"><img class="img-circle"name="Cloud9" src="Cloud9.jpg" border="1" align="center" height="270" width="270"></a></td>
+</tr>
+<tr>
+<td><h3 align="center"color="red">Margherita</h3><a href="confirmorder.html">
+<img class="img-circle"src="margherita.png" border="1" align="center" height="270" width="270"></a></td>
+<td></td>
+<td><h3 align="center"color="red">CountrySpecial</h3><a href="confirmorder.html">
+<img class="img-circle" src="countryspecial.png" border="1" align="center" height="270" width="270"></a></td>
+<td></td>
+</tr>
+</table>
+<br>
+<h2 align="center"><font color="red">-----------------------------------EXTRAS-------------------------------------</font></h2>
+<table align="center">
+<tr>
+<td><h3 align="center" ondblclick="alert('Coke will be available only when you buy 2 regulars')">Coke</h3><a href="confirmorder.html"><img id="img1"class="img-circle"src="coke.png"></img></a></td>
+<td><h3 align="center"ondblclick="alert('Diet coke will be available only when you buy 2 regulars')">Diet Coke</h3><a href="confirmorder.html"><img class="img-circle"src="dietcoke.png"></img></a></td>
+<td><h3 align="center"ondblclick="alert('Fanta will be available only when you buy 2 regulars')">Fanta</h3><a href="confirmorder.html"><img class="img-circle"src="fanta.png"></img></a></td>
+</tr>
+</table>
+</body>
+</html>

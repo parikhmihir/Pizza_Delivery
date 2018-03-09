@@ -1,0 +1,6 @@
+table {border-collapse:collapse;width: 100%}
+td#t1{background-color:yellow; text-align:center;padding:4px;font-size:25;color:red}
+a:link{color:red;}
+a:visited {color:red;}
+a:hover {color:green}
+p{color:red; text-align:center;font-size:25;font-family:"Times New Roman"}

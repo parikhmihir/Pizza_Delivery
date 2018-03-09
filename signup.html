@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>SIGN UP</title>
+<script type="text/javascript" src="signupvalidate.js" src="tempjs.js"></script>
+<link rel="stylesheet" type="text/css" href="multiplestyle.css">
+</head>
+<body bgcolor="black" text="red">
+<img src="D:\project\picz\logo.jpg" height="150" width="150" align="left"></img>
+<form name="signup" action="home.html" onsubmit="return validateForm() " method="post" onreset="alert('All entries will be erased')">
+<h2 align="center">SIGN UP</h2>
+<br>
+<table align="center">
+<font align="center">Fields marked as asterick(*)are compulsory</font>
+<th>FIRST NAME<sup>*</sup>:</th>
+<td><input type="text" name="fname" required></td>
+<br>
+<br>
+</tr>
+<tr>
+<th>LAST NAME:</th>
+<td><input type="text" name="lname"></td>
+<br>
+<br>
+</tr>
+<tr>
+<th>CONTACT NUMBER<sup>*</sup>:</th>
+<td><input type="text" maxlength="10"name="contactno" required ></td>
+<br>
+<br>
+</tr>
+<tr>
+<th>GENDER<sup>*</sup>:</th>
+<td><input type="radio" name="gender"value="male" required>
+MALE:</td>
+<td><input type="radio" name="gender" value="female" required>
+FEMALE:</td>
+<br><br></tr>
+<tr>
+<th>E-MAIL:</th>
+<td><input type="text" method="post" name="mail"></td>
+</tr>
+<br><br><br>
+<tr>
+<th>PASSWORD:</th>
+<td><input type="password" method="post" name="password"></td>
+</tr>
+<br><br><br>
+<tr>
+<th>RE-ENTER PASSWORD:</th>
+<td><input type="password" method="post" name="rpassword"></td>
+</tr>
+</table>
+<br>
+<center>
+<td><input type="submit" value="SUBMIT" name="submit"></td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<td><input type="reset" value="RESET" name="reset"></td>
+</center>
+</form>
+</body>
+</html>

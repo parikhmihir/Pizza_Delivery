@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Personal Details</title>
+<script type="text/javascript" src="tempjs.js"></script>
+<link rel="stylesheet" type="text/css" href="multiplestyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+</head>
+<body bgcolor="grey">
+<img src="logo.jpg"></img>
+<h1 align="center">PERSONAL DETAILS</h1>
+<font align="center">Fields marked as asterick(*)are compulsory</font>
+<form name="personal"action="confirmorder.html" method="post" onsubmit="return validate()"onreset= "confirm('On reset all entries will be erased')">
+<table align="top"><tr>
+<th>FIRST NAME:</th>
+<td><input type="text" name="fname"></td>
+<br>
+<br>
+</tr>
+<tr>
+<th>LAST NAME:</th>
+<td><input type="text" name="lname"></td>
+<br>
+<br>
+</tr>
+<tr>
+<th>CONTACT NUMBER<sup>*</sup>:</th>
+<td><input type="text" maxlength="10"name="contactno" required ></td>
+<br>
+<br>
+</tr>
+<tr>
+<th>GENDER:</th>
+<td><input type="radio" name="gender"value="male">
+MALE:</td>
+<td><input type="radio" name="gender" value="Female">
+FEMALE:</td>
+<br><br></tr>
+<tr>
+<th>GIVE YOUR ORDER<sup>*</sup>:</th>
+<td>
+<input type="checkbox" name="ctomato" value="Cheese Tomato">Cheese Tomato
+</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="tomatotype" value="450">Small&nbsp&nbsp(450/-)</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="tomatotype" value="650">Regular&nbsp&nbsp(650/-)</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="tomatotype" value="850">Large&nbsp&nbsp(850/-)</td>
+</tr>
+<tr>
+<th></th>
+<td><input type="checkbox" name="c9" value="Cloud 9">Cloud 9
+</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="cloudtype" value="350">Small&nbsp&nbsp(350/-)</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="cloudtype" value="550">Regular&nbsp&nbsp(550/-)</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="cloudtype" value="750">Large&nbsp&nbsp(750/-)</td>
+</tr>
+<tr>
+<th></th>
+<td><input type="checkbox" name="cspecial" value="countryspecial">Country Special
+</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="countrytype" value="230">Small&nbsp&nbsp(230/-)</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="countrytype" value="450">Regular&nbsp&nbsp(450/-)</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="countrytype" value="680">Large&nbsp&nbsp(680/-)</td>
+</tr>
+<tr>
+<th></th>
+<td><input type="checkbox" name="margherita" value="Margherita">MARGHERITA
+</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="margheritatype" value="100">Small&nbsp&nbsp(100/-)</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="margheritatype" value="220">Regular&nbsp&nbsp(220/-)</td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="margheritatype" value="400">Large&nbsp&nbsp(400/-)</td>
+</tr>
+<tr>
+<th>ADDRESS<sup>*</sup>:</th>
+<td><textarea rows="5" cols="20" required>
+</textarea></td>
+</tr>
+<br><br><br><br>
+</table><br><br><br>
+<input type="submit" value="CONFIRM">
+<input type="Reset" value="RESET">
+</form>
+</body>
+</html>
